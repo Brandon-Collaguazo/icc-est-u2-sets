@@ -1,18 +1,36 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Práctica Sets
 
-## Folder Structure
+## 📌 Información General
 
-The workspace contains two folders by default, where:
+- **Título:** Sets
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Brandon Collaguazo
+- **Fecha:** 01/07/2025
+- **Profesor:** Ing. Pablo Torres
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Descripción
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este proyecto demuestra el uso de diferentes tipos de conjuntos (Sets) en Java, incluyendo HashSet, LinkedHashSet y TreeSet, con ejemplos de cómo se comportan y cómo se pueden personalizar con comparadores.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 💡 Características
+
+- HashSet: Demuestra la naturaleza desordenada y sin duplicados de HashSet.
+- LinkedHashSet: Muestra cómo LinkedHashSet mantiene el orden de inserción mientras asegura la unicidad.
+- TreeSet: Explora el ordenamiento natural de TreeSet y cómo se pueden usar comparadores personalizados.
+- Comparadores Personalizados: Ejemplos de TreeSet ordenado por longitud de cadena y luego alfabéticamente, tanto en orden ascendente como descendente.
+---
+
+## 🚀 Ejecución
+
+![Resultado de Ejecución](resultadoSets.PNG)
+
+---
+
+
+
