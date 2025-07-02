@@ -1,5 +1,4 @@
-
-# Práctica Sets
+# Práctica SETS - CONTACTO
 
 ## 📌 Información General
 
@@ -7,30 +6,29 @@
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
 - **Estudiante:** Brandon Collaguazo
-- **Fecha:** 01/07/2025
+- **Fecha:** 02/07/2025
 - **Profesor:** Ing. Pablo Torres
 
 ---
 
 ## 🛠️ Descripción
 
-Este proyecto demuestra el uso de diferentes tipos de conjuntos (Sets) en Java, incluyendo HashSet, LinkedHashSet y TreeSet, con ejemplos de cómo se comportan y cómo se pueden personalizar con comparadores.
+Este proyecto demuestra la implementación y uso de conjuntos (Sets) en Java, específicamente enfocado en la gestión de contactos utilizando `TreeSet` y comparadores personalizados para ordenar los contactos de diversas maneras.
 
 ---
 
 ## 💡 Características
 
-- HashSet: Demuestra la naturaleza desordenada y sin duplicados de HashSet.
-- LinkedHashSet: Muestra cómo LinkedHashSet mantiene el orden de inserción mientras asegura la unicidad.
-- TreeSet: Explora el ordenamiento natural de TreeSet y cómo se pueden usar comparadores personalizados.
-- Comparadores Personalizados: Ejemplos de TreeSet ordenado por longitud de cadena y luego alfabéticamente, tanto en orden ascendente como descendente.
+- **Gestión de Contactos con `TreeSet`**:
+    - Se utiliza `TreeSet` para almacenar objetos `Contacto`, asegurando que no haya duplicados y que los contactos se mantengan ordenados.
+- **Comparadores Personalizados para `Contacto`**:
+    - **`ContactoComparator`**: Ordena los contactos alfabéticamente primero por apellido y luego por nombre.
+    - **`ContactoComparatorNumero`**: Ordena los contactos alfabéticamente primero por apellido, luego por nombre, y finalmente por número de teléfono en orden descendente.
+
 ---
 
 ## 🚀 Ejecución
 
-![Resultado de Ejecución](resultadoSets.PNG)
+![Resultado de Ejecución](contactoResultado.PNG)
 
 ---
-
-
-
