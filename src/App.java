@@ -1,16 +1,18 @@
 import java.util.Set;
 
+import controllers.ContactoController;
 import controllers.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Brandon Collaguazo\n");
         Sets sets = new Sets();
-        runHashSet(sets);
-        runHashSetLinked(sets);
-        runHashSetTree(sets);
-        runTreeSetComparation(sets);
-        runTreeSetComparationInverso(sets);
+        //runHashSet(sets);
+        //runHashSetLinked(sets);
+        //runHashSetTree(sets);
+        //runTreeSetComparation(sets);
+        //runTreeSetComparationInverso(sets);
+        ContactoController contactoController = new ContactoController();
     }
 
     public static void runHashSet(Sets sets) {
