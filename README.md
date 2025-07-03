@@ -37,9 +37,8 @@ Este proyecto Java explora la implementación y el uso de conjuntos (Sets) para 
 
 ## 🚀 Ejecución
 
-Práctica 1
 ![Resultado de Ejecución](resultadoSets.PNG)
-Práctica 2
+
 ![Resultado de Ejecución](contactoResultado.PNG)
-Práctica 3
+
 ![Resultado de Ejecución](resultados.PNG)
