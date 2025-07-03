@@ -29,6 +29,6 @@ Este proyecto demuestra la implementación y uso de conjuntos (Sets) en Java, es
 
 ## 🚀 Ejecución
 
-![Resultado de Ejecución](contactoResultado.PNG)
+![Resultado de Ejecución](resultadoSets.PNG)
 
----
+![Resultado de Ejecución](contactoResultado.PNG)
