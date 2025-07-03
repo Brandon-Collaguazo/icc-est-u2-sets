@@ -1,18 +1,20 @@
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Brandon Collaguazo\n");
+        System.out.println("Brandon Collaguazo");
         Sets sets = new Sets();
         //runHashSet(sets);
         //runHashSetLinked(sets);
         //runHashSetTree(sets);
         //runTreeSetComparation(sets);
         //runTreeSetComparationInverso(sets);
-        ContactoController contactoController = new ContactoController();
+        //ContactoController contactoController = new ContactoController();
+        Ejercicios ejercicios = new Ejercicios();
     }
 
     public static void runHashSet(Sets sets) {
